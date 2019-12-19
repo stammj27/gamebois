@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|VT323&display=swap');
+/* Essentials! */
+body {
+    background-color: #c6e1e7;
+    margin: 0px;
+    width:100%;
+}
+
+/* Nav Bar! */
+.logo{
+    height:80px;
+    width:394px;
+    margin:10px;
+}
+.nav-bar {
+    background-color:rgba(113,127,130, 0.5);
+    height:100px;
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    z-index: 1
+}
+.nav-list {
+    float:right;
+    margin:20px;
+}
+.list-item {
+    text-align:center;
+    height:38px;
+    width:125px;
+    margin:auto;
+    padding:5px;
+    color: #a53c77;
+    background-color: #2e2d2d;
+    font-size: 30px;
+    display:inline-block;
+    border:3px solid #a53c77;
+    border-radius:10px;
+    font-family: 'Roboto Mono', monospace;
+    transition: width 2s, height 2s;
+}
+li:hover {
+    color:#738728;
+    width: 150px;
+    height: 45px;
+    background-color: #2e2d2d;
+    border-color:#738728;
+    transition: width 2s, height 2s;
+}
+/* End Navbar! */
+main {
+    margin-top: 0px;
+    background-image:url('../img/hero.jpg');
+    background-position: 0px 100px;
+    background-size: 10%;
+    width:100%;
+    background-repeat: no-repeat;
+    height: 1400px;
+}
+
+
+/* Body! */
+.head{
+    margin-left: 22%;
+    display: inline-block;
+    font-size: 100px;
+    color: #2e2d2d;
+    font-family: 'VT323', monospace;
+}
+.hero {
+    width:100%;
+    margin-top: 100px;
+}
+.mission-body {
+    color: #2e2d2d;
+    margin-top: 0px;
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
+}
+audio {
+    margin: 100px 33% 0px 38%; 
+}
+/* End Body! */
+
+/* Footer! */
+.footer {
+    display: inline-block;
+    height: 100px;
+    width: 100%;
+    background-color:#2e2d2d;
+    margin-bottom: -50px;
+    border-top: 5px solid #949495;
+
+}
+.copy, .social-media {
+    margin-top: 33px;
+}
+.button-input {
+    margin-top: 55px;
+}
+.footcol {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+button {
+    height: 22px;
+    width:60px;
+    border-radius:5px;
+    color: #a53c77;
+    background-color: #000000;
+    border-color: #a53c77;
+
+}
+input {
+    height:16px;
+    width:200px;
+}
+.copy p {
+   color: #a53c77;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.icon {
+    color: #a53c77;
+    width: 45px;
+    font-size: 3em;
+    margin-left:30px;
+    transition: font-size 2s;
+}
+.icon:hover {
+    color: #738728;
+    font-size: 4em;
+    transition: font size 2s;
+}
+/* End Footer! */
+
+/* About Styles! */
+.abocol {
+    margin-top: 105px;
+}
+.boipic {
+    width: 33%;
+    transition: 3s
+}
+img:hover {
+    transition: filter .5s;
+    filter: sepia(100%);
+}
+.boifacts {
+    font-size: 24px;
+    color: #2e2d2d;
+}
+/* Contact Styles! */
+.laycon{
+    margin-top:105px;
+    display:inline-block;
+    border: solid 5px #738728;
+    width: 100%
+}
+.contact-section{
+    height: 520px;
+    float:left;
+    width:48%;
+    display:block;
+    margin:auto;
+}
